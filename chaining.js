@@ -11,3 +11,5 @@ var aintegers = integers.sort(function(first, second){return first-second}).reve
 console.log(aintegers)
 var aintegers = integers.sort(function(first, second){return first-second}).reverse().filter(function(bob){return bob < 19}); // 2nd
 console.log(aintegers);
+var aintegers = integers.sort(function(first, second){return first-second}).reverse().filter(function(bob){return bob < 19}).map(function(mathing){return mathing*1.5 - 1}); // 3rd
+console.log(aintegers);
